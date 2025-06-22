@@ -1,0 +1,26 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+.env/
+.envrc
+*.env
+
+# Data & embeddings (too large for Git)
+data/Answers.csv
+data/Questions.csv
+data/qna.json
+embeddings/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
