@@ -21,3 +21,6 @@ __pycache__/
 Thumbs.db
 # Virtual environments
 venv/
+
+data/Answers.csv
+data/Questions.csv
