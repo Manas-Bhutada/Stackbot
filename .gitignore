@@ -1,26 +1,23 @@
-# Byte-compiled / cache files
+# Model weights
+*.safetensors
+*.bin
+*.pt
+
+# HuggingFace cache
+.mistral_base/
+C:/Users/manas/.cache/huggingface/
+
+# Python artifacts
 __pycache__/
-*.py[cod]
-*.so
-
-# Virtual environments
-venv/
-.env/
-.envrc
-*.env
-
-# Data & embeddings (too large for Git)
-data/Answers.csv
-data/Questions.csv
-data/qna.json
-embeddings/
-
-# Jupyter
+*.pyc
+*.pyo
 .ipynb_checkpoints/
-
-# OS/system files
-.DS_Store
-Thumbs.db
 
 # VSCode
 .vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+# Virtual environments
+venv/
